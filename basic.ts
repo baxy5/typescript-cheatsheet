@@ -1,10 +1,12 @@
+// compile: terminal: - tsc
+
 console.log('Typescript!');
 
 // Typescript can tell you the origin of the error and some solution
 // Like:
 let order = 'first';
 
-// order.toLowercase() if you miss type it will give an error and the problem
+// order.toLowercase() if you miss the type it will give an error and the problem
 // with the lower 'c'.
 order.toLowerCase();
 
