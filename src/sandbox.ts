@@ -52,3 +52,8 @@ let mixed: any[] = [];
 
 mixed.push(5)
 mixed.push("asd") */
+
+let a: number = 5;
+let b: number = 5;
+
+console.log(a + b)

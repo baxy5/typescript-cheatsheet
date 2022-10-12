@@ -1,3 +1,4 @@
+"use strict";
 /* const addition = (x: number, y: number) => {
     console.log(x + y);
 }
@@ -23,7 +24,6 @@ mixed.push(false);
 let uid : string | number ;
 uid = "123"
 uid = 123
-
 */
 // objects
 /* let ninjaOne: object;
@@ -33,4 +33,15 @@ let ninjaTwo: {
     name: string,
     age: number,
     beltColour: string
-} */ 
+} */
+// Dynamic types
+/* let age: any = 25;
+let age = "asd";
+
+let mixed: any[] = [];
+
+mixed.push(5)
+mixed.push("asd") */
+let a = 5;
+let b = 5;
+console.log(a + b);
