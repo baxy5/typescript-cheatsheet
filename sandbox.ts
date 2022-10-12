@@ -4,10 +4,12 @@
 
 addition(2, 3) */
 
+
 // explicit types
 /* let character: string;
 let age: number;
 let isLoggedIn: boolean; */
+
 
 
 // arrays
@@ -18,6 +20,7 @@ ninjas = ["asd", "asd"];
 ninjas.push("shaun")
 */
 
+
 // union types
 /* let mixed: (string | number)[] = [];
 mixed.push("hello");
@@ -26,9 +29,9 @@ mixed.push(false);
 
 let uid : string | number ;
 uid = "123"
-uid = 123 
-
+uid = 123
 */
+
 
 // objects
 /* let ninjaOne: object;
@@ -39,3 +42,13 @@ let ninjaTwo: {
     age: number,
     beltColour: string
 } */
+
+
+// Dynamic types
+/* let age: any = 25;
+let age = "asd";
+
+let mixed: any[] = [];
+
+mixed.push(5)
+mixed.push("asd") */
