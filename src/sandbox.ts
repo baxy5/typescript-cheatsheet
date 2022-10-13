@@ -106,4 +106,17 @@ const result = add(5, 10)
 console.log(result)
 console.log(typeof (result)) */
 
+// type aliases
+type StringOrNum = string | number;
+type objWithName = { name: string, uid: StringOrNum }
+
+const logDetails = (uid: StringOrNum, item: string) => {
+    console.log(`${item} has a uid of ${uid}`)
+}
+
+logDetails(2131321312, "Maja")
+
+const greet = (user: objWithName) => {
+    console.log(`${user.name} says hello!`)
+}
 
