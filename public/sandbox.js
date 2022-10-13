@@ -42,6 +42,47 @@ let mixed: any[] = [];
 
 mixed.push(5)
 mixed.push("asd") */
-let a = 5;
-let b = 5;
-console.log(a + b);
+/* let a: number = 5;
+let b: number = 5;
+
+console.log(a + b) */
+// Functions
+/* let greet: Function;
+
+greet = () => {
+    console.log("hello world");
+}
+
+greet(); */
+/* const addition = (a: number, b: number) => {
+    console.log(a + b);
+}
+
+addition(5, "asd") */
+// optional = ?
+/* const multi = (a: number, b: number, c?: number | string) => {
+    console.log(a * b);
+    console.log(c)
+}
+
+multi(5, 4, "Maja") */
+// default value
+/* const add = (a: number, b: number, c: number | string = 3) => {
+    console.log(a + b)
+    console.log(c)
+}
+
+add(34, 55) */
+// become the type
+/* let plus = (a: number, b: number) => {
+    return a + b;
+}
+
+let asd = plus(5, 5) */
+// return type declare
+const add = (a, b) => {
+    return a + b;
+};
+const result = add(5, 10);
+console.log(result);
+console.log(typeof (result));
