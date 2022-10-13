@@ -107,7 +107,7 @@ console.log(result)
 console.log(typeof (result)) */
 
 // type aliases
-type StringOrNum = string | number;
+/* type StringOrNum = string | number;
 type objWithName = { name: string, uid: StringOrNum }
 
 const logDetails = (uid: StringOrNum, item: string) => {
@@ -118,5 +118,23 @@ logDetails(2131321312, "Maja")
 
 const greet = (user: objWithName) => {
     console.log(`${user.name} says hello!`)
+} */
+
+// function signatures
+// ex 1
+let greet: (a: string, b: string) => void
+// let greet: void
+greet = (name: string, greeting: string) => {
+    console.log(`${name} says ${greeting}`)
 }
 
+//ex2
+let calc: (a: number, b: number, c: string) => number;
+
+calc = (numOne: number, numTwo: number, action: string) => {
+    if (action === "add") {
+        return numOne + numTwo;
+    } else {
+        return numOne - numTwo;
+    }
+}
